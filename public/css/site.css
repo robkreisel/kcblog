@@ -1,28 +1,29 @@
+/* line 1, ../sass/site.scss */
 body {
-    padding-top: 0px;
+  padding-top: 0px;
 }
-.page-icons {
-	margin-top: 15px;
-	text-align: center;
 
+/* line 4, ../sass/site.scss */
+.page-icons {
+  margin-top: 15px;
+  text-align: center;
 }
+/* line 7, ../sass/site.scss */
 .page-icons button {
-	font-size: 28px;
-	/*margin-left: 15px;*/
-	margin: 5px;
-	width: 58px;
-	padding: 8px 13px;
+  font-size: 28px;
+  margin: 5px;
+  width: 58px;
+  padding: 8px 13px;
 }
+
+/* line 14, ../sass/site.scss */
 footer {
-	background-color: #22313f;
-	color: #587fa3;
-	padding: 10px;
-	margin-top: 15px;
-	/*text-align: center;*/
+  background-color: #22313f;
+  color: #587fa3;
+  padding: 10px;
+  margin-top: 15px;
 }
+/* line 19, ../sass/site.scss */
 footer .copy {
-	float: right;
-}
-footer .links {
-	/*text-align: left;*/
+  float: right;
 }
