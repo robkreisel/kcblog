@@ -32,3 +32,11 @@ footer .copy {
 .nav-buttons {
   margin-top: 30px;
 }
+/* line 25, ../sass/site.scss */
+.nav-buttons button {
+  visibility: hidden;
+}
+/* line 28, ../sass/site.scss */
+.nav-buttons:hover button {
+  visibility: visible;
+}

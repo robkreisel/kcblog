@@ -21,5 +21,11 @@ footer {
     }
 }
 .nav-buttons {
-	margin-top: 30px;
+    margin-top: 30px;
+    button {
+        visibility: hidden;
+    }
+    &:hover button {
+        visibility: visible;
+    }
 }
