@@ -16,7 +16,13 @@ body {
 footer {
 	background-color: #22313f;
 	color: #587fa3;
-	padding: 10px 0;
+	padding: 10px;
 	margin-top: 15px;
-	text-align: center;
+	/*text-align: center;*/
+}
+footer .copy {
+	float: right;
+}
+footer .links {
+	/*text-align: left;*/
 }
