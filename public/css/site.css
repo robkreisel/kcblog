@@ -27,3 +27,8 @@ footer {
 footer .copy {
   float: right;
 }
+
+/* line 23, ../sass/site.scss */
+.nav-buttons {
+  margin-top: 30px;
+}
