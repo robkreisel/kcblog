@@ -3,6 +3,20 @@
 body {
     padding-top: 40px;
 }
+.map-modal {
+	margin-top: 200px;
+	.modal-content {
+		padding: 10px;
+		.open-in-maps {
+			float: left;
+			font-size: 38px;
+			height: 63px;
+			width: 63px;
+			text-align: center;
+			margin-right: 8px;
+		}
+	}
+}
 .page-icons {
     margin-top: 15px;
     text-align: center;
