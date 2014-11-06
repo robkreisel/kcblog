@@ -1,14 +1,14 @@
-/* line 1, ../sass/site.scss */
+/* line 3, ../sass/site.scss */
 body {
-  padding-top: 0px;
+  padding-top: 40px;
 }
 
-/* line 4, ../sass/site.scss */
+/* line 6, ../sass/site.scss */
 .page-icons {
   margin-top: 15px;
   text-align: center;
 }
-/* line 7, ../sass/site.scss */
+/* line 9, ../sass/site.scss */
 .page-icons button {
   font-size: 28px;
   margin: 5px;
@@ -16,27 +16,27 @@ body {
   padding: 8px 13px;
 }
 
-/* line 14, ../sass/site.scss */
+/* line 16, ../sass/site.scss */
 footer {
   background-color: #22313f;
   color: #587fa3;
   padding: 10px;
   margin-top: 15px;
 }
-/* line 19, ../sass/site.scss */
+/* line 21, ../sass/site.scss */
 footer .copy {
   float: right;
 }
 
-/* line 23, ../sass/site.scss */
+/* line 25, ../sass/site.scss */
 .nav-buttons {
   margin-top: 30px;
 }
-/* line 25, ../sass/site.scss */
+/* line 27, ../sass/site.scss */
 .nav-buttons button {
   visibility: hidden;
 }
-/* line 28, ../sass/site.scss */
+/* line 30, ../sass/site.scss */
 .nav-buttons:hover button {
   visibility: visible;
 }
