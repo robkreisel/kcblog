@@ -3,7 +3,7 @@
 body {
     padding-top: 40px;
 }
-.map-modal {
+.map-modal, .hours-modal {
 	margin-top: 100px;
 	.modal-content {
 		padding: 10px;
@@ -20,7 +20,9 @@ body {
 .page-icons {
     margin-top: 15px;
     text-align: center;
-    button {
+    padding-left: 50px;
+    padding-right: 50px;
+    button, a {
         font-size: 28px;
         margin: 5px;
         width: 58px;
