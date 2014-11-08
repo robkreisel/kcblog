@@ -25,8 +25,8 @@ body {
 .page-icons {
   margin-top: 15px;
   text-align: center;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 /* line 25, ../sass/site.scss */
 .page-icons button, .page-icons a {
