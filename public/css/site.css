@@ -1,50 +1,49 @@
-/* line 3, ../sass/site.scss */
+/* line 2, ../sass/site.scss */
 html {
   position: relative;
   min-height: 100%; }
 
-/* line 8, ../sass/site.scss */
+/* line 6, ../sass/site.scss */
 body {
   padding-top: 40px;
   margin-bottom: 41px; }
 
-/* line 12, ../sass/site.scss */
+/* line 10, ../sass/site.scss */
 .modal-size {
   width: 350px; }
 
-/* line 15, ../sass/site.scss */
+/* line 13, ../sass/site.scss */
 .map-modal, .hours-modal {
   margin-top: 100px; }
-  /* line 18, ../sass/site.scss */
-  .map-modal .modal-content .modal-action-left, .map-modal .modal-content .modal-action-right, .hours-modal .modal-content .modal-action-left, .hours-modal .modal-content .modal-action-right {
+  /* line 16, ../sass/site.scss */
+  .map-modal .modal-content .modal-action, .hours-modal .modal-content .modal-action {
     font-size: 38px;
     width: 73px;
     padding-top: 20px;
+    padding-left: 12px;
     text-align: center; }
-  /* line 24, ../sass/site.scss */
-  .map-modal .modal-content .modal-action-left, .hours-modal .modal-content .modal-action-left {
-    padding-left: 12px; }
-  /* line 27, ../sass/site.scss */
-  .map-modal .modal-content .modal-action-right, .hours-modal .modal-content .modal-action-right {
-    padding-right: 12px; }
-  /* line 30, ../sass/site.scss */
+  /* line 23, ../sass/site.scss */
   .map-modal .modal-content .address-block, .hours-modal .modal-content .address-block {
     font-size: 16px; }
+  /* line 26, ../sass/site.scss */
+  .map-modal .modal-content a[href^=tel], .hours-modal .modal-content a[href^=tel] {
+    color: inherit;
+    text-decoration: none; }
 
-/* line 35, ../sass/site.scss */
+/* line 32, ../sass/site.scss */
 .page-icons {
   margin: 15px 0;
   text-align: center;
   padding-left: 40px;
   padding-right: 40px; }
-  /* line 40, ../sass/site.scss */
+  /* line 37, ../sass/site.scss */
   .page-icons button, .page-icons a {
     font-size: 28px;
     margin: 5px;
     width: 58px;
     padding: 8px 13px; }
 
-/* line 47, ../sass/site.scss */
+/* line 44, ../sass/site.scss */
 footer {
   position: absolute;
   bottom: 0;
@@ -53,16 +52,16 @@ footer {
   background-color: #22313f;
   color: #587fa3;
   padding: 10px; }
-  /* line 55, ../sass/site.scss */
+  /* line 52, ../sass/site.scss */
   footer .copy {
     float: right; }
 
-/* line 59, ../sass/site.scss */
+/* line 56, ../sass/site.scss */
 .nav-buttons {
   margin-top: 30px; }
-  /* line 61, ../sass/site.scss */
+  /* line 58, ../sass/site.scss */
   .nav-buttons button {
     visibility: hidden; }
-  /* line 64, ../sass/site.scss */
+  /* line 61, ../sass/site.scss */
   .nav-buttons:hover button {
     visibility: visible; }
