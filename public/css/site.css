@@ -9,34 +9,45 @@ body {
   margin-bottom: 41px; }
 
 /* line 12, ../sass/site.scss */
+.modal-size {
+  width: 320px; }
+
+/* line 15, ../sass/site.scss */
 .map-modal, .hours-modal {
   margin-top: 100px; }
-  /* line 14, ../sass/site.scss */
+  /* line 17, ../sass/site.scss */
   .map-modal .modal-content, .hours-modal .modal-content {
     padding: 10px; }
-    /* line 16, ../sass/site.scss */
+    /* line 19, ../sass/site.scss */
     .map-modal .modal-content .open-in-maps, .hours-modal .modal-content .open-in-maps {
+      margin-right: 8px;
       float: left;
       font-size: 38px;
-      height: 63px;
+      height: 83px;
       width: 63px;
-      text-align: center;
-      margin-right: 8px; }
+      text-align: center; }
+    /* line 27, ../sass/site.scss */
+    .map-modal .modal-content .address-block, .hours-modal .modal-content .address-block {
+      float: left; }
+    /* line 30, ../sass/site.scss */
+    .map-modal .modal-content .dial-phone, .hours-modal .modal-content .dial-phone {
+      font-size: 38px;
+      text-align: center; }
 
-/* line 26, ../sass/site.scss */
+/* line 36, ../sass/site.scss */
 .page-icons {
   margin: 15px 0;
   text-align: center;
   padding-left: 40px;
   padding-right: 40px; }
-  /* line 31, ../sass/site.scss */
+  /* line 41, ../sass/site.scss */
   .page-icons button, .page-icons a {
     font-size: 28px;
     margin: 5px;
     width: 58px;
     padding: 8px 13px; }
 
-/* line 38, ../sass/site.scss */
+/* line 48, ../sass/site.scss */
 footer {
   position: absolute;
   bottom: 0;
@@ -45,16 +56,16 @@ footer {
   background-color: #22313f;
   color: #587fa3;
   padding: 10px; }
-  /* line 46, ../sass/site.scss */
+  /* line 56, ../sass/site.scss */
   footer .copy {
     float: right; }
 
-/* line 50, ../sass/site.scss */
+/* line 60, ../sass/site.scss */
 .nav-buttons {
   margin-top: 30px; }
-  /* line 52, ../sass/site.scss */
+  /* line 62, ../sass/site.scss */
   .nav-buttons button {
     visibility: hidden; }
-  /* line 55, ../sass/site.scss */
+  /* line 65, ../sass/site.scss */
   .nav-buttons:hover button {
     visibility: visible; }
