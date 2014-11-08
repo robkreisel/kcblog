@@ -25,7 +25,7 @@ body {
 
 /* line 26, ../sass/site.scss */
 .page-icons {
-  margin-top: 15px;
+  margin: 15px 0;
   text-align: center;
   padding-left: 40px;
   padding-right: 40px; }
@@ -44,18 +44,17 @@ footer {
   height: 41;
   background-color: #22313f;
   color: #587fa3;
-  padding: 10px;
-  margin-top: 25px; }
-  /* line 47, ../sass/site.scss */
+  padding: 10px; }
+  /* line 46, ../sass/site.scss */
   footer .copy {
     float: right; }
 
-/* line 51, ../sass/site.scss */
+/* line 50, ../sass/site.scss */
 .nav-buttons {
   margin-top: 30px; }
-  /* line 53, ../sass/site.scss */
+  /* line 52, ../sass/site.scss */
   .nav-buttons button {
     visibility: hidden; }
-  /* line 56, ../sass/site.scss */
+  /* line 55, ../sass/site.scss */
   .nav-buttons:hover button {
     visibility: visible; }
