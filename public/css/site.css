@@ -9,41 +9,54 @@ body {
   margin-bottom: 41px; }
 
 /* line 10, ../sass/site.scss */
-.modal-size {
-  width: 350px; }
-
-/* line 13, ../sass/site.scss */
 .map-modal, .hours-modal {
   margin-top: 100px; }
-  /* line 16, ../sass/site.scss */
+  /* line 13, ../sass/site.scss */
   .map-modal .modal-content .modal-action, .hours-modal .modal-content .modal-action {
     font-size: 38px;
-    width: 73px;
-    padding-left: 12px;
     text-align: center;
     vertical-align: middle; }
-  /* line 23, ../sass/site.scss */
-  .map-modal .modal-content .address-block, .hours-modal .modal-content .address-block {
+  /* line 18, ../sass/site.scss */
+  .map-modal .modal-content .info-block, .hours-modal .modal-content .info-block {
     font-size: 16px; }
-  /* line 26, ../sass/site.scss */
+  /* line 21, ../sass/site.scss */
   .map-modal .modal-content a[href^=tel], .hours-modal .modal-content a[href^=tel] {
     color: inherit;
     text-decoration: none; }
+  /* line 25, ../sass/site.scss */
+  .map-modal .modal-content .modal-table, .hours-modal .modal-content .modal-table {
+    margin: 10px 0; }
+    /* line 27, ../sass/site.scss */
+    .map-modal .modal-content .modal-table th, .map-modal .modal-content .modal-table td, .hours-modal .modal-content .modal-table th, .hours-modal .modal-content .modal-table td {
+      padding: 5px 15px; }
+    /* line 30, ../sass/site.scss */
+    .map-modal .modal-content .modal-table td, .hours-modal .modal-content .modal-table td {
+      text-align: right; }
 
-/* line 32, ../sass/site.scss */
+/* line 37, ../sass/site.scss */
+.map-modal .modal-action {
+  padding-left: 12px;
+  width: 73px; }
+
+/* line 43, ../sass/site.scss */
+.hours-modal .modal-action {
+  padding-left: 29px;
+  width: 103px; }
+
+/* line 48, ../sass/site.scss */
 .page-icons {
   margin: 15px 0;
   text-align: center;
   padding-left: 40px;
   padding-right: 40px; }
-  /* line 37, ../sass/site.scss */
+  /* line 53, ../sass/site.scss */
   .page-icons button, .page-icons a {
     font-size: 28px;
     margin: 5px;
     width: 58px;
     padding: 8px 13px; }
 
-/* line 44, ../sass/site.scss */
+/* line 60, ../sass/site.scss */
 footer {
   position: absolute;
   bottom: 0;
@@ -52,16 +65,16 @@ footer {
   background-color: #22313f;
   color: #587fa3;
   padding: 10px; }
-  /* line 52, ../sass/site.scss */
+  /* line 68, ../sass/site.scss */
   footer .copy {
     float: right; }
 
-/* line 56, ../sass/site.scss */
+/* line 72, ../sass/site.scss */
 .nav-buttons {
   margin-top: 30px; }
-  /* line 58, ../sass/site.scss */
+  /* line 74, ../sass/site.scss */
   .nav-buttons button {
     visibility: hidden; }
-  /* line 61, ../sass/site.scss */
+  /* line 77, ../sass/site.scss */
   .nav-buttons:hover button {
     visibility: visible; }
