@@ -15,33 +15,33 @@ body {
   .map-modal .modal-content .modal-action, .hours-modal .modal-content .modal-action {
     font-size: 38px;
     text-align: center;
+    width: 73px;
     vertical-align: middle; }
-  /* line 18, ../sass/site.scss */
+  /* line 19, ../sass/site.scss */
   .map-modal .modal-content .info-block, .hours-modal .modal-content .info-block {
     font-size: 16px; }
-  /* line 21, ../sass/site.scss */
+  /* line 22, ../sass/site.scss */
   .map-modal .modal-content a[href^=tel], .hours-modal .modal-content a[href^=tel] {
     color: inherit;
     text-decoration: none; }
-  /* line 25, ../sass/site.scss */
+  /* line 26, ../sass/site.scss */
   .map-modal .modal-content .modal-table, .hours-modal .modal-content .modal-table {
     margin: 10px 0; }
-    /* line 27, ../sass/site.scss */
+    /* line 28, ../sass/site.scss */
     .map-modal .modal-content .modal-table th, .map-modal .modal-content .modal-table td, .hours-modal .modal-content .modal-table th, .hours-modal .modal-content .modal-table td {
-      padding: 5px 15px; }
-    /* line 30, ../sass/site.scss */
+      padding: 5px 15px;
+      font-size: 18px; }
+    /* line 32, ../sass/site.scss */
     .map-modal .modal-content .modal-table td, .hours-modal .modal-content .modal-table td {
       text-align: right; }
 
-/* line 37, ../sass/site.scss */
+/* line 39, ../sass/site.scss */
 .map-modal .modal-action {
-  padding-left: 12px;
-  width: 73px; }
+  padding-left: 12px; }
 
-/* line 43, ../sass/site.scss */
+/* line 44, ../sass/site.scss */
 .hours-modal .modal-action {
-  padding-left: 29px;
-  width: 103px; }
+  padding-left: 23px; }
 
 /* line 48, ../sass/site.scss */
 .page-icons {
