@@ -114,11 +114,11 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-    <img src="img/quay_coffee_2.jpg" class="img-responsive" alt="Quay Coffee Pour-over">
+    <img src="img/quay_coffee_2.jpg" class="img-responsive" alt="Quay Coffee Pour-over" id="big-image">
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-10">
-                <h1>Quay Coffee</h1>
+                <h1 id="target">Quay Coffee</h1>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore sequi pariatur incidunt, nihil ut facere. Repellendus error nobis omnis, blanditiis soluta. Repellat aliquid eligendi optio voluptas, labore veniam doloribus alias. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti corporis animi culpa veritatis non suscipit vel, tempore unde maiores, perspiciatis beatae laboriosam nam dolorem impedit est similique quia! Nesciunt, voluptatum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet nihil suscipit cumque quia quisquam iure, excepturi quibusdam aliquid, similique culpa possimus rem reiciendis et? Ipsa, nulla dolor mollitia repellendus cumque?
                 </p>
@@ -155,3 +155,11 @@
 </body>
 
 </html>
+<script>
+    $(function() {
+        $("#main-image").on("swipeleft", swipelefthandler);
+        function swipelefthandler(event) {
+            $("#target").addClass("text-success");
+        }
+    }); 
+</script>
