@@ -71,10 +71,10 @@ footer {
 }
 .nav-buttons {
     margin-top: 30px;
-    button {
+    a {
         visibility: hidden;
     }
-    &:hover button {
+    &:hover a {
         visibility: visible;
     }
 }

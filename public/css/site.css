@@ -73,8 +73,8 @@ footer {
 .nav-buttons {
   margin-top: 30px; }
   /* line 74, ../sass/site.scss */
-  .nav-buttons button {
+  .nav-buttons a {
     visibility: hidden; }
   /* line 77, ../sass/site.scss */
-  .nav-buttons:hover button {
+  .nav-buttons:hover a {
     visibility: visible; }
