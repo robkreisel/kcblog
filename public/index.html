@@ -114,7 +114,7 @@
         </div>
         <!-- /.container-fluid -->
     </nav>
-    <img src="img/quay_coffee_2.jpg" class="img-responsive" alt="Quay Coffee Pour-over" id="big-image">
+    <img src="img/quay_coffee_2.jpg" class="img-responsive" alt="Quay Coffee Pour-over">
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-10">
@@ -157,7 +157,7 @@
 </html>
 <script>
     $(function() {
-        $("#big-image").on("swipeleft", swipelefthandler);
+        $("img").on("swipeleft", swipelefthandler);
         function swipelefthandler() {
             window.location.assign("http://kcblog.design1010.com/index2.html");
         }
