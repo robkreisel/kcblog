@@ -154,3 +154,15 @@
 </body>
 
 </html>
+<script>
+    $(function() {
+        $("img").on("swipeleft", swipelefthandler);
+        $("img").on("swiperight", swiperighthandler);
+        function swipelefthandler() {
+            window.location.assign("http://kcblog.design1010.com/index.html");
+        }
+        function swiperighthandler() {
+            window.location.assign("http://kcblog.design1010.com/index2.html");
+        }
+    }); 
+</script>
